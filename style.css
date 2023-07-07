@@ -1,0 +1,43 @@
+body{
+    background-color:#fcfaf4;
+}
+.main-holder{
+    margin: 10px;
+    padding-top: 50px;
+}
+.text{
+    font-size: 25px;
+    margin: 30px 10px;
+    font-family: sans-serif;
+    color: #505050;
+    text-align: center;
+}
+.chart-holder{
+    margin: 40px 10px 80px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg:first-of-type{
+    background-color: #fcf2ddc7 !important;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(142, 142, 142);
+}
+.bg{
+    fill:#fcf2ddc7 !important;
+}
+
+
+
+@media screen and (max-width: 700px){
+    .text{
+        font-size: medium;
+    }
+
+    .chart-holder{
+        margin: 0;
+        display: block;
+    }
+
+}
