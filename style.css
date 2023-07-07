@@ -32,7 +32,7 @@ svg:first-of-type{
 
 @media screen and (max-width: 700px){
     .text{
-        font-size: medium;
+        font-size: small;
     }
 
     .chart-holder{
